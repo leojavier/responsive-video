@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Video</title>
+    <style>
+    .video-container {
+        height: 0; 
+        overflow: hidden;
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px; 
+    }
+    .video-container iframe, .video-container object, .video-container embed {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+         <iframe src="http://www.youtube.com/embed/ERubh80hIuE" frameborder="0" width="560" height="315"></iframe>
+    </div>
+</body>
+</html>
